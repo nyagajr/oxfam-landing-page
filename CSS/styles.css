@@ -1,11 +1,19 @@
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
+  border-color: #000000;
   background-color: #000000;
 
+  width: 100%;
+
 }
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
 .navbar-nav>li{
-  border-right: 1px solid #000;
+
 }
 /* Add a gray background color and some padding to the footer */
 footer {
